@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+/* Typography */
+
+/* Heading */
+
+.heading-1{
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 105%;
+}
+.heading-2{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 125%;
+}
+.heading-3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 125%;
+}
+.accent{
+    font-style: italic;
+    color: var(--text-accent);
+}
+
+/* Body */
+
+.medium{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.caption{
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+/* Action */
+
+.link, .button{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+}
+.burger-link{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 125%;
+}
+
+@media(max-width: 380px){
+    .heading-1{
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 115%;
+    }
+    .heading-2{
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 125%;
+    }
+}
