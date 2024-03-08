@@ -100,6 +100,8 @@ a{
     box-sizing: border-box;
     border-radius: 40px;
     background-image: url(images/img-hero.jpg);
+    background-position: center;
+    background-size: cover;
     position: relative;
 }
 .hero video{
