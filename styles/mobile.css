@@ -1,0 +1,50 @@
+
+@media(max-width: 380px){
+
+    /* Section Header */
+
+    .home-page{
+        padding: 20px 16px 40px 16px;
+    }
+    .nav{
+        width: calc(100vw - 32px);
+    }
+    .hero{
+        padding: 60px 16px;
+    }
+
+    /* Section Favorite Coffee */
+
+    .slider-button{
+        visibility: hidden;
+        position: absolute;
+    }
+    .slide{
+        width: calc(100vw - 32px);
+    }
+    .slide .medium,
+    .slider img{
+        width: calc(100vw - 32px);
+    }
+
+    /* Section About */
+
+    .box{
+        height: 590px;
+        width: calc(100vw - 32px);
+    }
+
+    /* Mobile App */
+
+    .buttons{
+        flex-direction: column;
+    }
+
+    /* Section Contacts */
+
+    .contacts .container{
+        padding: 60px 16px;
+        flex-direction: column;
+        gap: 40px;
+    }
+} 
