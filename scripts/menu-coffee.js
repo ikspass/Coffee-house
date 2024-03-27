@@ -31,7 +31,7 @@ fetch('./scripts/products.json')
   function resetElements(){
     document.getElementById('grid').innerHTML = '';
 
-    if(window.matchMedia("(min-width: 769px) and (max-width: 1440px)").matches){
+    if(window.matchMedia("(min-width: 769px)").matches){
       showFirstFourElements();
       showOtherElements();
     }
